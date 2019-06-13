@@ -37,4 +37,4 @@ RUN chmod +x /usr/local/bin/entrypoint.sh
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"] 
 
-CMD cd /home/fmp4-ingest/ingest-tools && pwd && ./fmp4ingest $CMD_ARGS -u $PUB_POINT_URI tos-096-750k.cmfv tos-096-400k.cmfv tos-096s-128k.cmfa tos-de-096s.cmft tos-en-096s.cmft
+CMD cd /home/fmp4-ingest/ingest-tools && pwd && ./fmp4ingest $CMD_ARGS -u $PUB_POINT_URI $CMAF_FILES
