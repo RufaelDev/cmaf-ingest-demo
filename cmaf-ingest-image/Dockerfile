@@ -23,8 +23,6 @@ COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 
 COPY tos-096-750k.cmfv /home/fmp4-ingest/ingest-tools/tos-096-750k.cmfv
 
-COPY tos-096-400k.cmfv /home/fmp4-ingest/ingest-tools/tos-096-400k.cmfv
-
 COPY tos-096s-128k.cmfa /home/fmp4-ingest/ingest-tools/tos-096s-128k.cmfa
 
 COPY tos-de-096s.cmft /home/fmp4-ingest/ingest-tools/tos-de-096s.cmft
