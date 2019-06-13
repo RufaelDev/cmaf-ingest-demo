@@ -1,4 +1,4 @@
-# Unified Streaming CMAF ingest to Live Origin Demo
+# Unified Streaming CMAF Live ingest to Live Origin Demo
 
 This demonstration shows a [Unified Streaming](http://www.unified-streaming.com/products/unified-origin) Origin setup with a Live publishing point and uses the DASH-IF CMAF ingest reference code https://github.com/unifiedstreaming/fmp4-ingest.
 
