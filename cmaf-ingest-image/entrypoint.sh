@@ -6,6 +6,10 @@ if [ ! $PUB_POINT_URI ]
   echo >&2 "Error: PUB_POINT_URI environment variable is required but not set."
   PUB_POINT_URI=http://live-origin/test/test.isml
 fi
-
+if [ ! $CMAF_FILES]
+  then
+  echo >&2 "Error: CMAF FILES variable is required but not set."
+  CMAF_FILES=tos-096-750k.cmfv
+fi
 
 exec "$@"
