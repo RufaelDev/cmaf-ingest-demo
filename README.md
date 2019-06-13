@@ -45,7 +45,7 @@ You can also update the docker-compose file
 
 ```bash
 -CMAF_FILES=<cmaf files to ingest>
--CMD_ARGS=<additional command line arguments, default -r and --chunked for real time long running posts>
+-CMD_ARGS=<additional command line arguments, default -r and --chunked for chunked long running posts>
 ```
 
 note the sample files are 1second fragment based for low latency, using short running posts and many 
