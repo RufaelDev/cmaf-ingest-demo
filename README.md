@@ -40,6 +40,18 @@ export USP_LICENSE_KEY=<your_license_key>
 docker-compose up
 ```
 
+
+You can also update the docker-compose file
+
+```bash
+-CMAF_FILES  <cmaf files to ingest>
+-CMD_ARGS <additional command line arguments, default -r and --chunked for real time long running posts>
+```
+
+note the sample files are 1second fragment based for low latency, using short running posts and many 
+streams may results in performance problems in some setups. Please use long running posts when 
+using small fragment sizes.
+
 You can also choose to run it in background (detached mode):
 
 ```bash
@@ -47,6 +59,8 @@ You can also choose to run it in background (detached mode):
 export USP_LICENSE_KEY=<your_license_key>
 docker-compose up -d
 ```
+
+
 
 Now that the stack is running the live stream should be available in all streaming formats at the following URLs:
 
