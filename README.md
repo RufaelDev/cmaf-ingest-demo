@@ -1,6 +1,6 @@
 # Unified Streaming CMAF ingest to Live Origin Demo
 
-This demonstration shows a [Unified Streaming](http://www.unified-streaming.com/products/unified-origin) Origin setup with a Live publishing point and uses [FFmpeg](https://ffmpeg.org/) as an encoder to push an input stream.
+This demonstration shows a [Unified Streaming](http://www.unified-streaming.com/products/unified-origin) Origin setup with a Live publishing point and uses the DASH-IF CMAF ingest reference code https://github.com/unifiedstreaming/fmp4-ingest.
 
 The demo consists of two Docker containers which are deployed using Docker Compose.
 
