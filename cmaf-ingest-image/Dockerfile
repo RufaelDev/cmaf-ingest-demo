@@ -31,7 +31,7 @@ COPY tos-de-096s.cmft /home/fmp4-ingest/ingest-tools/tos-de-096s.cmft
 
 COPY tos-en-096s.cmft /home/fmp4-ingest/ingest-tools/tos-en-096s.cmft
 
-COPY tos-ru-096s.cmft /home/fmp4-ingest/ingest-tools/tos-ru-096s.cmft
+COPY tos-es-096s.cmft /home/fmp4-ingest/ingest-tools/tos-es-096s.cmft
 
 COPY tos-fr-096s.cmft /home/fmp4-ingest/ingest-tools/tos-fr-096s.cmft
 
